@@ -87,3 +87,11 @@ crashlytics-build.properties
 
 # Ignore local UPM tarballs
 /Packages/*.tgz
+
+# Vuforia license keys and tracking data
+Assets/Resources/VuforiaConfiguration.asset
+QCAR/somedata16
+QCAR/lh
+
+# Keep the meta files
+!Assets/Resources/VuforiaConfiguration.asset.meta
